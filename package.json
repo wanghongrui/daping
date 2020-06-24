@@ -1,0 +1,42 @@
+{
+  "name": "daping",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@deck.gl/core": "^8.1.12",
+    "@deck.gl/geo-layers": "^8.1.12",
+    "@deck.gl/layers": "^8.1.12",
+    "@deck.gl/mesh-layers": "^8.1.12",
+    "@deck.gl/react": "^8.1.12",
+    "mapbox-gl": "^1.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-map-gl": "^5.2.7",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "styled-components": "^5.1.1"
+  }
+}

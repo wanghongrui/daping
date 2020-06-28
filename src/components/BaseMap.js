@@ -10,8 +10,8 @@ const MAPBOX_TOKEN = 'pk.eyJ1IjoiZGFob25nIiwiYSI6ImNpZjUyNDA2bTA4N2ZzcG0zY2F2MHd
 
 const DATA_URL = {
   BUILDINGS:
-    'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/trips/buildings.json', // eslint-disable-line
-  TRIPS: 'https://raw.githubusercontent.com/visgl/deck.gl-data/master/examples/trips/trips-v7.json' // eslint-disable-line
+    'data/buildings.json', // eslint-disable-line
+  TRIPS: 'data/trips-v7.json' // eslint-disable-line
 };
 
 const ambientLight = new AmbientLight({
@@ -108,7 +108,7 @@ class BaseMap extends React.Component {
         getTimestamps: d => d.timestamps,
         getColor: d => (d.vendor === 0 ? theme.trailColor0 : theme.trailColor1),
         opacity: 0.3,
-        widthMinPixels: 2,
+        widthMinPixels: 6,
         rounded: true,
         trailLength,
         currentTime: this.state.time,
